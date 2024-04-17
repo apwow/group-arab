@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="sector.css">
     <link rel="stylesheet" href="media.css">
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="shortcut icon" href="/image/logo.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/f88373e562.js" crossorigin="anonymous"></script>
@@ -198,42 +203,84 @@
         <div class="title-partner">
             <h1>Our Partners</h1>
         </div>
-        <div class="logo-partner">
-            <img src="/image/bank.jpg">
+    </div>
+        <section class="main swiper mySwiper">
+      <div class="wrapper swiper-wrapper">
+        <div class="slide swiper-slide">
+          <img src="image/img1.jpg" alt="" class="image" />
+          <div class="image-data">
+            <span class="text">Enjoy the finest coffee drinks.</span>
+            <h2>
+              Enjoy Our Exclusive <br />
+              Coffee and Cocktails
+            </h2>
+            <a href="#" class="button">About Us</a>
+          </div>
         </div>
+        <div class="slide swiper-slide">
+          <img src="image/img2.jpg" alt="" class="image" />
+          <div class="image-data">
+            <span class="text">We really like what we do.</span>
+            <h2>
+              Coffee Beans with a <br />
+              Perfect Aroma
+            </h2>
+            <a href="#" class="button">About Us</a>
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <img src="image/img3.jpg" alt="" class="image" />
+          <div class="image-data">
+            <span class="text">Making Our coffee with lover.</span>
+            <h2>
+              Alluring and Fragrant <br />
+              Coffee Aroma
+            </h2>
+            <a href="#" class="button">About Us</a>
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+            <img src="image/img3.jpg" alt="" class="image" />
+            <div class="image-data">
+              <span class="text">Making Our coffee with lover.</span>
+              <h2>
+                Alluring and Fragrant <br />
+                Coffee Aroma
+              </h2>
+              <a href="#" class="button">About Us</a>
+            </div>
+          </div>
+          <div class="slide swiper-slide">
+            <img src="image/img3.jpg" alt="" class="image" />
+            <div class="image-data">
+              <span class="text">Making Our coffee with lover.</span>
+              <h2>
+                Alluring and Fragrant <br />
+                Coffee Aroma
+              </h2>
+              <a href="#" class="button">About Us</a>
+            </div>
+          </div>
+      </div>
 
-    </div>
-    <div class="first-iraqi-bank">
-        <div class="nav-iraqi-bank">
-            <h1>FIRST IRAQI BANK</h1>
-        </div>
-        <div class="caption-iraqi-bank">
-            <h2> Established in 2020, First Iraqi Bank (FIB) is Iraq's first-ever fully digital bank,
-                offering a range of financial services through its mobile app. Committed to
-                international security and compliance standards, FIB aims to revolutionize
-                banking in Iraq by providing convenient, accessible, and secure financial solutions
-                for individuals and businesses.</h2>
-                <div class="btn-bank">
-                    <a href="https://fib.iq/" target="_blank">Read More</a>
-                </div>
-        </div>
-        <div class="our-first-iraqi-bank">
-            <ul>
-                <li>Completely digital: Open accounts, manage finances, and conduct transactions
-                    entirely through the mobile app.</li>
-                <li>Fast and convenient: Account opening takes less than five minutes, and various
-                    financial services are readily available on the app.</li>
-                <li>Secure and reliable: FIB adheres to international security and compliance
-                    standards, ensuring the safety and reliability of your financial transactions</li>
-                <li>Wide range of services: Offers personal and business accounts, money transfers,
-                    bill payments, and other financial services.
-                    </li>
-                <li>Focus on innovation: Continuously strives to introduce new features and services
-                    to enhance the customer experience.</li>
-            </ul>
-            <img src="/image/images+(3).png" class="logo-bank">
-            <img src="/image/first_iraqi_bank_2_0.jpg" class="first-img">
-        </div>
-    </div>
+      <div class="swiper-button-next nav-btn"></div>
+      <div class="swiper-button-prev nav-btn"></div>
+      <div class="swiper-pagination"></div>
+    </section>
+    <script src="JS/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+    </script>
 </body>
 </html>
