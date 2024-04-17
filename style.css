@@ -755,7 +755,7 @@ top: 260px;
 }
 @media screen and (max-width: 480px){
   .latest-news{
-    top: 0px;
+    
     display: block;
   }
   .img-news{
@@ -767,13 +767,16 @@ top: 260px;
     padding-top: 0;
   }
   .c1{
-    width: 370px;
+    width: 330px;
 }
 .caption-news h2{
   padding-left: 25px;
 }
 .caption-news h1{
   padding-left: 25px;
+}
+.caption-news h1{
+  font-size: 17px;
 }
 .cards-n img{
   display: none;
@@ -810,6 +813,9 @@ top: 260px;
 }
 @media screen and (max-width: 480px){
   .con{
-    top: -165px;
+   
+  }
+  .container{
+    top: 150px;
   }
 }

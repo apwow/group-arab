@@ -15,7 +15,7 @@
     height: 70%;
     border-radius: 20px;
     border: solid 5px #9A6E66;
-    background: url(/image/11.svg);
+    background: url(/image/CRM-for-trading.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -24,7 +24,7 @@
     height: 70%;
     border-radius: 20px;
     border: solid 5px #9A6E66;
-    background: url(/image/22.svg);
+    background: url(/image/media.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -33,7 +33,7 @@
     height: 70%;
     border-radius: 20px;
     border: solid 5px #9A6E66;
-    background: url(/image/11.svg);
+    background: url(/image/green.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -42,7 +42,7 @@
     height: 70%;
     border-radius: 20px;
     border: solid 5px #9A6E66;
-    background: url(/image/22.svg);
+    background: url(/image/food.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -51,7 +51,7 @@
     height: 70%;
     border-radius: 20px;
     border: solid 5px #9A6E66;
-    background: url(/image/33.svg);
+    background: url(/image/benefits-of-general-trading-company.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -60,7 +60,7 @@
     height: 70%;
     border-radius: 20px;
     border: solid 5px #9A6E66;
-    background: url(/image/44.svg);
+    background: url(/image/fly.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -203,6 +203,17 @@
     .trnding{
         flex-direction: column;
         margin-top: 100px;
+        
+    }
+    .trnding, .food, .general, .flying, .investments, .media{
+      height: 150vh;
+    }
+    .media{
+      height: 167vh;
+      margin-top: 45px;
+    }
+    .investments{
+      height: 167vh;
     }
     .img-trnding, .img-food, .img-general, .img-flying, .img-investments, .img-media{
         width: 100%;
@@ -215,7 +226,10 @@
         height: 115%;
     }
     .trnding-company img{
-        width: 390px;
+      width: 345px;
+    }
+    .partners{
+      height: 10vh;
     }
     .food , .investments , .media{
         flex-direction: column;
@@ -339,4 +353,5 @@ a.button:hover {
   .swiper-pagination-bullet {
     visibility: visible;
   }
+  
 }
