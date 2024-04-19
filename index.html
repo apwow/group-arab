@@ -6,6 +6,7 @@
     <title>Arabian Group</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="shortcut icon" href="/image/logo.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/f88373e562.js" crossorigin="anonymous"></script>
@@ -31,117 +32,66 @@
         </nav>
 
     <!-- carousel -->
-    <div class="carousel">
-        <!-- list item -->
-        <div class="list">
-            <div class="item">
-                <img src="image/11.svg">
+    <section class="main swiper mySwiper">
+        <div class="wrapper swiper-wrapper">
+          <div class="slide swiper-slide">
+            <img src="image/2 copy.png" alt="" class="image" />
+            <div class="image-data">
+              <span class="text">Vition</span>>
+              <!-- <a href="about.html" class="button">About Us</a> -->
+            </div>
+          </div>
+          <div class="slide swiper-slide">
+            <img src="image/mission copy.png" alt="" class="image" />
+            <div class="image-data">
+              <span class="text">Mission.</span>
+              <h2>
+              </h2>
+              <!-- <a href="about.html" class="button">About Us</a> -->
+            </div>
+          </div>
+          <div class="slide swiper-slide">
+            <img src="image/vision copy.png" alt="" class="image" />
+            <div class="image-data">
+              <span class="text">Story.</span>
+              <h2>
 
+              </h2>
+              <!-- <a href="about.html" class="button">About Us</a> -->
             </div>
-            <div class="item">
-                <img src="image/22.svg">
-                <!-- <div class="content">
-                    <div class="author">LUNDEV</div>
-                    <div class="title">DESIGN SLIDER</div>
-                    <div class="topic">ANIMAL</div>
-                    <div class="des">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
-                    </div>
-                    <div class="buttons">
-                        <button>SEE MORE</button>
-                        <button>SUBSCRIBE</button>
-                    </div>
-                </div> -->
+          </div>
+          <div class="slide swiper-slide">
+              <img src="image/our. story copy.png" alt="" class="image" />
+              <div class="image-data">
+                <span class="text">Sector</span>
+                <!-- <h2>
+                  Alluring and Fragrant <br />
+                  Coffee Aroma
+                </h2> -->
+          /
+              </div>
             </div>
-            <div class="item">
-                <img src="image/33.svg">
-                <!-- <div class="content">
-                    <div class="author">LUNDEV</div>
-                    <div class="title">DESIGN SLIDER</div>
-                    <div class="topic">ANIMAL</div>
-                    <div class="des">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
-                    </div>
-                    <div class="buttons">
-                        <button>SEE MORE</button>
-                        <button>SUBSCRIBE</button>
-                    </div>
-                </div> -->
-            </div>
-            <div class="item">
-                <img src="image/44.svg">
-                <!-- <div class="content">
-                    <div class="author">LUNDEV</div>
-                    <div class="title">DESIGN SLIDER</div>
-                    <div class="topic">ANIMAL</div>
-                    <div class="des">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
-                    </div>
-                    <div class="buttons">
-                        <button>SEE MORE</button>
-                        <button>SUBSCRIBE</button>
-                    </div>
-                </div> -->
+            <div class="slide swiper-slide">
+              <img src="image/our. story2 copy.png" alt="" class="image" />
+              <div class="image-data">
+                <span class="text">Story</span>
+                <!-- <h2>
+                  Alluring and Fragrant <br />
+                  Coffee Aroma
+                </h2> -->
+                <!-- <a href="about.html" class="button">About Us</a> -->
+              <!-- </div> -->
             </div>
         </div>
-        <!-- list thumnail -->
-        <div class="thumbnail">
-            <div class="item">
-                <img src="image/11.svg">
-                <!-- <div class="content">
-                    <div class="title">
-                        Name Slider
-                    </div>
-                    <div class="description">
-                        Description
-                    </div>
-                </div> -->
-            </div>
-            <div class="item">
-                <img src="image/22.svg">
-                <!-- <div class="content">
-                    <div class="title">
-                        Name Slider
-                    </div>
-                    <div class="description">
-                        Description
-                    </div>
-                </div> -->
-            </div>
-            <div class="item">
-                <img src="image/33.svg">
-                <!-- <div class="content">
-                    <div class="title">
-                        Name Slider
-                    </div>
-                    <div class="description">
-                        Description
-                    </div>
-                </div> -->
-            </div>
-            <div class="item">
-                <img src="image/44.svg">
-                <!-- <div class="content">
-                    <div class="title">
-                        Name Slider
-                    </div>
-                    <div class="description">
-                        Description
-                    </div>
-                </div> -->
-            </div>
-        </div>
-        <!-- next prev -->
-
-        <div class="arrows">
-            <button id="prev"><</button>
-            <button id="next">></button>
-        </div>
-        <!-- time running -->
-        <div class="time"></div>
-    </div>
+  
+        <div class="swiper-button-next nav-btn"></div>
+        <div class="swiper-button-prev nav-btn"></div>
+        <div class="swiper-pagination"></div>
+      </section>
     <div class="about">
         <div class="caption-about">
+
+
             <p>About Us</p>
             <h1><span>Arabian Group is a dynamic</span> and forwardthinking holding company established in
                 2023. With a commitment to driving
@@ -389,6 +339,7 @@
             </div>
         </div>
    </footer>
+   <script src="JS/swiper-bundle.min.js"></script>
 	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js">
     </script>
@@ -396,6 +347,19 @@
       <script>
         AOS.init();
       </script>
-    <script src="main.js"></script>
+    <script src="main.js">
+                var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+    </script>
 </body>
 </html>
