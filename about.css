@@ -157,7 +157,7 @@
       text-align: center;
     }
     .mission{
-      height: 180vh;
+      height: 125vh;
     }
     .img-mission , .img-vision , .img-story{
       width: 100%;
@@ -175,7 +175,7 @@
     }
     .vision{
       flex-direction: column-reverse;
-      height: 230vh;
+      height: 170vh;
     }
     .caption-vision{
       width: 100%;
