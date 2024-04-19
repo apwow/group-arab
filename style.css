@@ -432,7 +432,7 @@ nav .links{
     height: 65vh;
   }
   .caption-about{
-    left: 50px;
+    left: 40px;
     top: 50px;
     width: 300px;
   }
@@ -644,7 +644,7 @@ nav .links{
 @media screen and (max-width: 480px){
   .title-sectors{
     width: 300px;
-    left: 35px;
+    left: 18px;
     top: 8px;
   }
 }
@@ -665,7 +665,7 @@ nav .links{
 .img-back-news{
     width: 90%;
     height: 70%;
-    background: url(/image/me);
+    background: url(/image/meet3\ copy.png);
     background-position: center;
     background-size: cover;
     border-radius: 20px;
