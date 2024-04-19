@@ -90,17 +90,17 @@
     border: solid 5px #9A6E66;
   }
   .img-in-mission{
-    background: url(/image/22.svg);
+    background: url(/image/mission\ copy.png);
     background-position: center;
     background-size: cover;
   }
   .img-in-vision{
-    background: url(/image/33.svg);
+    background: url(/image/vision\ copy.png);
     background-position: center;
     background-size: cover;
   }
   .img-in-story{
-    background: url(/image/11.svg);
+    background: url(/image/our.\ story\ copy.png);
     background-position: center;
     background-size: cover;
   }
