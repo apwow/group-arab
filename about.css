@@ -17,6 +17,7 @@
 }
 .title-welcome h1{
     font-size: 35px;
+    color: #b98781;
 }
 .caption-welcome{
     width: 100%;
@@ -124,6 +125,7 @@
   }
   .title-mission h1 , .title-vision h1 , .title-story h1{
     font-size: 35px;
+    color: #b98781;
   }
   .p-mission , .p-vision , .p-story{
     width: 80%;

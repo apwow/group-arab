@@ -80,6 +80,7 @@
 .title-trnding h1 , .title-food h1 , .title-general h1 , .title-flying h1 , .title-investments h1 , .title-media h1{
     font-size: 35px;
     margin: auto;
+    color: #b98781;
 }
 .p-trnding , .p-food , .p-general , .p-flying , .p-investments , .p-media{
     width: 90%;
@@ -117,6 +118,7 @@
 }
 .title-partner h1{
     font-size: 35px;
+    color: #b98781;
 }
 .logo-partner{
     width: 100%;

@@ -174,7 +174,9 @@ section{
   top: 0;
   left: 0;
 }
-
+#mobile-img{
+  display: none;
+}
 .home .content{
   z-index: 888;
   color: #fff;
@@ -199,10 +201,12 @@ section{
 .home .content h1 span{
   font-size: 1.2em;
   font-weight: 600;
+  color: #b98781;
 }
 
 .home .content p{
   margin-bottom: 65px;
+  padding-right: 300px;
 }
 
 .home .content a{
@@ -366,6 +370,13 @@ section{
   .home .content h1{
       font-size: 3em;
       line-height: 60px;
+      margin-bottom: 420px;
+  }
+  #mobile-img{
+    display: block;
+  }
+  #desktop-img{
+    display: none;
   }
 }
 .about{
@@ -389,10 +400,10 @@ section{
 }
 .caption-about h1{
     font-size: 20px;
-    text-align: justify;
 }
 .caption-about span{
     font-size: 30px;
+    color: #b98781;
 }
 .btn-about{
     width: 125px;
@@ -612,9 +623,11 @@ section{
   }
   .title-sectors h1{
     font-size: 20px;
+    text-align: left;
   }
   .title-sectors h2{
     font-size: 35px;
+    color: #b98781;
   }
   .btn-sector{
     width: 125px;
@@ -653,7 +666,7 @@ section{
 .img-back-news{
     width: 90%;
     height: 70%;
-    background: url(/image/meet3\ copy.png);
+    background: url(/image/our.\ story2\ copy.png);
     background-position: center;
     background-size: cover;
     border-radius: 20px;
@@ -667,6 +680,7 @@ section{
 }
 .caption-news h2{
     font-size: 35px;
+    color: #b98781;
 }
 .caption-news h1{
     font-size: 20px;
