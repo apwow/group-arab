@@ -85,8 +85,8 @@
 .p-trnding , .p-food , .p-general , .p-flying , .p-investments , .p-media{
     width: 90%;
     height: auto;
-    text-align: justify;
-    text-align-last: center;
+    text-align: center;
+
     margin: auto;
 }
 .p-trnding h2 , .p-food h2 , .p-general h2 , .p-flying h2 , .p-investments h2 , .p-media h2{

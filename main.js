@@ -1,3 +1,20 @@
+function toggleContent() {
+  var desktopContent = document.querySelector('.desktop-content');
+  var mobileContent = document.querySelector('.mobile-content');
+  if (window.matchMedia('(max-width: 768px)').matches) {
+      // إذا كان حجم الشاشة صغير (للموبايل)
+      desktopContent.style.display = 'none';
+      mobileContent.style.display = 'block';
+  } else {
+      // إذا كان حجم الشاشة كبير (للكمبيوتر)
+      desktopContent.style.display = 'block';
+      mobileContent.style.display = 'none';
+  }
+}
+
+// استدعاء التابع عند تحميل الصفحة وعند تغيير حجم الشاشة
+window.onload = toggleContent;
+window.onresize = toggleContent;
 const menuBtn = document.querySelector(".menu-btn");
 const navigation = document.querySelector(".navigation");
 
@@ -33,6 +50,7 @@ var sliderNav = function(manual){
             sliderNav(i)
         });
     });
+    
 function emailSend(){
 
 	var userName = document.getElementById('name').value;

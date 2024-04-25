@@ -174,9 +174,7 @@ section{
   top: 0;
   left: 0;
 }
-#mobile-img{
-  display: none;
-}
+
 .home .content{
   z-index: 888;
   color: #fff;
@@ -302,6 +300,8 @@ section{
   transition-property: clip-path;
 }
 
+/*  */
+
 @media (max-width: 1040px){
   header{
       padding: 12px 20px;
@@ -371,12 +371,6 @@ section{
       font-size: 3em;
       line-height: 60px;
       margin-bottom: 420px;
-  }
-  #mobile-img{
-    display: block;
-  }
-  #desktop-img{
-    display: none;
   }
 }
 .about{

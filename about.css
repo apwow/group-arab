@@ -133,18 +133,15 @@
   }
   .p-mission h2{
     font-size: 25px;
-    text-align: justify;
-    text-align-last: center;
+
   }
   .p-vision h2{
     font-size: 24px;
-    text-align: justify; 
-    text-align-last: center;
+
   }
   .p-story h2{
     font-size: 20px;
-    text-align: justify; 
-    text-align-last: center;
+
   }
   .p-vision h2 span{
     padding-top: 15px;
